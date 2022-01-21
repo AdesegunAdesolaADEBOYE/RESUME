@@ -3,5 +3,5 @@ from django.http import HttpResponse
 
 # Create your views here.
 def index(request):
-    return HttpResponse("This is an application about resume building")
+    return render(request, "oyebola.html")
 
